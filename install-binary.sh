@@ -13,7 +13,7 @@ while [ $# -gt 0 ]; do
   shift
 done
 if [ -z $VERSION ]; then
-    VERSION='latest'
+    VERSION='3.2.0'
 fi
 PROJECT_NAME="helm-ssm"
 PROJECT_GH="seripap/$PROJECT_NAME"
